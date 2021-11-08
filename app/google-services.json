@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "706654941400",
+    "project_id": "college-admin-panel",
+    "storage_bucket": "college-admin-panel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706654941400:android:d7fc136380506093e0e7ad",
+        "android_client_info": {
+          "package_name": "com.example.adminpanelapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706654941400-d8s4cjfkd4bjn3hmt5tj9v5cm45ii7d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlz6kAdh5y3e_h9BG4B7kv4gZQIWLOHjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706654941400-d8s4cjfkd4bjn3hmt5tj9v5cm45ii7d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

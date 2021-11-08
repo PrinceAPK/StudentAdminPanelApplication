@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Admin Panel Application</string>
+    <string name="upload_notice">Upload Notice</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="delete_notice">Delete Notice</string>
+    <string name="select_image">SELECT IMAGE</string>
+    <string name="notice_title">Notice Title</string>
+    <string name="select_pdf">SELECT PDF</string>
+    <string name="upload_pdf">Upload PDF</string>
+    <string name="remove_notice">REMOVE NOTICE</string>
+    <string name="change_faculty">Change Faculty</string>
+    <string name="update_faculty">Update Faculty</string>
+
+    <string name="hello">Hello World, MainComboBox!</string>
+    <string name="prompt">Category</string>
+    <string name="error_login_incorrect">Error: Login Incorrect</string>
+    <string-array name="countries_array">
+        <item>IS</item>
+        <item>NS</item>
+        <item>USA</item>
+        <item>Indonesia</item>
+    </string-array>
+
+</resources>

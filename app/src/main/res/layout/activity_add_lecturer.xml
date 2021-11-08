@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddLecturer">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/addLecturerPic"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/lecturerAddPhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#D4DDE4"
+                    android:padding="18dp"
+                    android:src="@drawable/ic_account" />
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/lecturerTitleName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name of Lecturer" />
+
+        </com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="19dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/lecturerTitleContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Lecturer Contact" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="19dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/lecturerTitleRole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Role Served by Lecturer" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:layout_marginTop="16dp"
+            android:id="@+id/addLecturerCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="Category" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/addLecturerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:text="Add Lecturer"
+            android:textColor="#FFFFFF" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/lecturerCardPane"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/LecturerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

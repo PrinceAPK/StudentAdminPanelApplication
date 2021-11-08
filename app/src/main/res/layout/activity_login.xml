@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#0EB9CF"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EF5300"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="62dp"
+        android:text="Admin Panel Login"
+        android:gravity="center"
+        android:textSize="28sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/admin"
+        android:scaleType="centerCrop"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text=""
+        android:inputType="textEmailAddress"
+        android:textAllCaps="false"
+        android:textColor="@color/textColor"
+        android:hint="Please Enter Your Email" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textAllCaps="false"
+        android:text=""
+        android:layout_marginTop="40dp"
+        android:hint="Please Enter Your Password" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#982F00"
+        android:fontFamily="sans-serif-black"
+        android:text="LOGIN"/>
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="56dp"
+        android:text="@string/error_login_incorrect"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:textSize="22sp"/>
+
+
+
+</LinearLayout>
